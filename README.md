@@ -36,6 +36,6 @@ The container image is also available at [ghcr.io/okikio/mov-docs](https://ghcr.
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `SITE_URL` | `https://xp-technologies-dev` | The base site URL for the build |
+| `SITE_URL` | `https://xp-technologies-dev.github.io` | The base site URL for the build |
 | `BASE_PATH` | `/pstream-docs` | The base path for the site |
 | `PORT` | `8080` | Port for the Docker container |
