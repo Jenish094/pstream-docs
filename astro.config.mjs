@@ -4,8 +4,8 @@ import starlight from '@astrojs/starlight';
 import Icons from 'unplugin-icons/vite';
 
 // Allow site URL and base path to be overridden via environment variables
-const site = process.env.SITE_URL ?? 'https://jenish094.github.io';
-const base = process.env.BASE_PATH ?? '/pstream-docs';
+const site = process.env.SITE_URL ?? 'https://docs.pstream.jenish.tech';
+const base = process.env.BASE_PATH ?? '/';
 
 export default defineConfig({
   site,
