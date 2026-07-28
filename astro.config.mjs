@@ -18,7 +18,7 @@ export default defineConfig({
         light: './src/assets/icon-light.png',
         dark: './src/assets/icon-dark.png',
       },
-      favicon: `${base}/favicon.ico`,
+        favicon: '/favicon.ico',      
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/jenish094/p-stream' },
         { icon: 'discord', label: 'Discord', href: `${base}/links/discord` },
